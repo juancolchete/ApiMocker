@@ -2585,10 +2585,10 @@ get-stream@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
-getfy@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/getfy/-/getfy-0.0.10.tgz#df9df5f3e2f8ab1ab70e16146c1f6eebe6636fa7"
-  integrity sha512-BqXZQiDQ3ogzXSEeRR6u6GL20sZKgWZbuWXS4LemoI4IMfhS3L7zQhQVMk5Fk8DWMSW+WY9BVFHxx4majJqSuw==
+getfy@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/getfy/-/getfy-0.0.11.tgz#3531f3889d72c5f174021aa896c45ec8ed53d57c"
+  integrity sha512-cLHd8nSpBEEQQwx1B0RTlHbfNHlBVSOIfMYJO5Fq5cwG8qaM7QpCpOzSkHJXAHpwrKq24H6E62cAH7inPAsW2Q==
   dependencies:
     axios "^1.7.2"
     typescript "^5.5.2"

@@ -16,7 +16,7 @@ export class AppService {
         }
       }
     }
-    await getfy(url)   
-    return 'ok';
+    const response = await getfy(url)   
+    return response;
   }
 }
