@@ -21,6 +21,7 @@ export class AppService {
     return response;
   }
   async apiMockEnv(){
-    return await axios.get(process.env.MOCK_URL)
+    const response = await axios.get(process.env.MOCK_URL)
+    return response.data 
   }
 }
