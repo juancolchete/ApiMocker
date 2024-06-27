@@ -3,7 +3,7 @@ import getfy from 'getfy';
 
 @Injectable()
 export class AppService {
-  async apiMock(query:any): Promise<string> {
+  async apiMock(query:any): Promise<any> {
     const queryKeys = Object.keys(query)
     const queryValues = Object.values(query)
     let url = `${query.url}?`
