@@ -9,4 +9,8 @@ export class AppController {
   async apiMock(@Query() query:any): Promise<any> {
     return await this.appService.apiMock(query);
   }
+  @Get("/fromEnv")
+  async apiMockEnv(): Promise<any> {
+    return await this.appService.apiMockEnv();
+  }
 }

@@ -19,4 +19,7 @@ export class AppService {
     const response = await getfy(url)   
     return response;
   }
+  async apiMockEnv(){
+    return await axios.get(process.env.MOCK_URL)
+  }
 }
