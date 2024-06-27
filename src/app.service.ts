@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import getfy from 'getfy';
+import axios from "axios";
 
 @Injectable()
 export class AppService {
