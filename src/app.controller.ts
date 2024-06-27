@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  async apiMock(@Query() query:any): Promise<string> {
+  async apiMock(@Query() query:any): Promise<any> {
     return await this.appService.apiMock(query);
   }
 }
